@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+body {
+    min-width: 375px;
+    min-height: 500px;
+}
+
+/* ------------------------------------------------------ */
+/* ------------------ modifiers ------------------------- */
+/* ------------------------------------------------------ */
+.succesful{
+    background-color: rgb(68, 173, 68) !important;
+}
+.denied{
+    background-color: rgb(201, 193, 100) !important;
+}
+
+.wordCounter {
+    /* min-width: 200px;
+    width: 80%;
+    max-width: 600px; */
+    width: clamp(200px, 80%, 600px);
+    min-height: 50px;
+    height: 30%;
+    max-height: calc(60vh);
+}
+
+.footer {
+    height: 38px; 
+}
+
+:root {
+    --color-dark: #212529;
+    --text-color:#e9ecef;
+    --components-color: #6c757d;
+}
+
+.dark-mode {
+    background-color: var(--color-dark) !important;
+}
+
+.dark-component {
+    background-color: var(--components-color) !important;
+}
+
+.text-light{
+    color: var(--text-color) !important;
+}
+
+/* ------------------------------------------------------ */
+/* ------------------- Toast ---------------------------- */
+/* ------------------------------------------------------ */
+
+.toast-body > p:last-child{
+    margin-bottom: 0 !important;
+}
