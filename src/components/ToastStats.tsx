@@ -1,6 +1,6 @@
 // Not working yet
 import Icon from './Icon';
-import { Stats, ToastMode } from '../types/myTypes'
+import { Stats } from '../types/myTypes'
 
 const ToastStats: React.FC<Stats> = ({ stats }: Stats) => {
     const { wpm, writtenwords, time, close, mode } = stats

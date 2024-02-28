@@ -1,6 +1,5 @@
-import { MutableRefObject, useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 // import Stats from './Stats';
-import Icon from './Icon';
 import ToastStats from "./ToastStats";
 import { Stats } from '../types/myTypes'
 
